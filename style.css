@@ -3,19 +3,19 @@
    "how to change link color." */
 
 body {
-  background-color: white;
-  color: #da73d2;
+  background-color: black;
+  color: #ffffff;
   font-family: Verdana;
 }
 a:link {
-  color: #f6aaf0;
+  color: #ffffff;
 }
 a:visited {
-  color: #f6aaf0;
+  color: #ffffff;
 }
 a:hover {
-  color: #ae40a5;
+  color: #ffffff;
 }
 a:active {
-  color: #ae40a5;
+  color: #ffffff;
 }
