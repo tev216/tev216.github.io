@@ -1,0 +1,16 @@
+document.write('					</tr>');
+document.write('<!--Declaration Wrap-up-->');
+document.write('				</tbody>');
+document.write('			</table>');
+document.write('		</td>');
+document.write('	</tr>');
+document.write('		<!--Last Updated (Remove?)-->');
+document.write('		<tr>');
+document.write('			<td colspan="2" id="updated">ACT 1 (Last updated 4/20/2023)</td>');
+document.write('		</tr>');
+document.write('		<!--Footer-->');
+document.write('		<tr>');
+document.write('			<td id="copyright" colspan=2">&#xa9; MMZ 2023. Original code &#xa9; Rainbow Resort 1999-2023. Used with permission.</td>');
+document.write('		</tr>');
+document.write('		</tbody>');
+document.write('	</table>');

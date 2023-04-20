@@ -3,194 +3,300 @@
    "how to change link color." */
 
 html {
-    height: 100%;
+	height: 100%;
 }
 
 body {
-    font-family: Verdana, Arial, Helvetica, sans-serif;
-    color: #FFFFFF;
-    background: #696969;
-    margin: 0px 25px 0px 25px;
-    padding: 0px;
-    text-align: center;
-    font-size: 8pt;
-    height: 100%;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	background: url("images/tilebg.png") repeat;
+	margin: 0px 25px 0px 25px;
+	padding: 0px;
+	text-align: center;
+	font-size: 8pt;
+	height: 100%;
 }
+
 a:link {
 	color: #ffffff;
 }
+
 a:visited {
 	color: #ffffff;
 }
+
 a:hover {
 	color: #d6d6d6;
 }
+
 a:active {
 	color: #ffffff;
 }
 
-#header{
+#header {
 	background-color: black;
-	width:100%;
-	height:50px;
+	width: 100%;
+	height: 50px;
 	text-align: left;
 }
 
-#sidebar-left{
-	float:left;
-	width:10%;
+#sidebar-left {
+	float: left;
+	width: 10%;
 	background-color: black;
 }
 
-#main{
-	float:left;
-	width:80%;
+#main {
+	float: left;
+	width: 80%;
 	background-color: black;
 }
 
-#sidebar-right{
-	float:right;
-	width:10%;
+#sidebar-right {
+	float: right;
+	width: 10%;
 	background-color: black;
 }
 
-#footer{
-	clear:both;
+#footer {
+	clear: both;
 	height: 50px;
 	width: 100%;
 	text-align: center;
 	background-color: black;
 }
 
-#sidebar-left, #main, #sidebar-right{
+#sidebar-left,
+#main,
+#sidebar-right {
 	min-height: 600px
 }
 
+h1 {
+  margin: 0;
+}
+h2 {
+	margin-top: 0.67em;
+
+}
+
 /* code shamelessly referenced from kirby's rainbow resort */
+
 #wholetable {
 	border-style: solid;
-    border-width: 0px 1px 0px 1px;
-    border-color: #FFFFFF;
-    border-spacing: 0px;
-    padding: 0px;
-    margin: 0px auto 0px auto;
-    background-color: #000000;
-    font-size: 8pt;
-    width: 90%;
-    height: 100%;
+	border-width: 0px 1px 0px 1px;
+	border-color: #FFFFFF;
+	border-spacing: 0px;
+	padding: 0px;
+	margin: 0px auto 0px auto;
+	background-color: #000000;
+	font-size: 8pt;
+	width: 90%;
+	height: 100%;
 }
 
 #breadcrumbs {
-    font-size: 8pt;
-    padding: 0em 1em 0em 1em;
-    text-align: left;
-    vertical-align: middle;
-    height: 23px;
+	font-size: 8pt;
+	padding: 0em 1em 0em 1em;
+	text-align: left;
+	vertical-align: middle;
+	height: 23px;
 }
 
 #maintitlebg {
 	padding: 8px 0px 8px 8px;
-    text-align: left;
+	text-align: left;
 	height: 74px;
 }
 
 table {
-    display: table;
-    border-collapse: separate;
-    box-sizing: border-box;
-    text-indent: initial;
-    white-space: normal;
-    line-height: normal;
-    font-weight: normal;
-    font-size: medium;
-    font-style: normal;
-    color: -internal-quirk-inherit;
-    text-align: start;
-    border-spacing: 2px;
-    border-color: grey;
-    font-variant: normal;
+	display: table;
+	border-collapse: separate;
+	box-sizing: border-box;
+	text-indent: initial;
+	white-space: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-size: medium;
+	font-style: normal;
+	color: -internal-quirk-inherit;
+	text-align: center;
+	border-spacing: 2px;
+	border-color: grey;
+	font-variant: normal;
+	width: 150px;
 }
+
 tr {
-    display: table-row;
-    vertical-align: inherit;
-    border-color: inherit;
+	display: table-row;
+	vertical-align: inherit;
+	border-color: inherit;
 }
+
 tbody {
-    display: table-row-group;
-    vertical-align: middle;
-    border-color: inherit;
+	display: table-row-group;
+	vertical-align: middle;
+	border-color: inherit;
 }
-TD, TH {
-    border: none;
-    padding: 0px;
-    margin: 0px;
-    color: #FFFFFF;
-    font-size: 8pt;
+
+TD,
+TH {
+	border: none;
+	padding: 0px;
+	margin: 0px;
+	color: #FFFFFF;
+	font-size: 8pt;
 }
+
 td {
-    display: table-cell;
-    vertical-align: inherit;
+	display: table-cell;
+	vertical-align: inherit;
 }
 
 TD.maintdenc {
-    border: solid 1px #FFFFFF;
-    border-width: 1px 0px 0px 0px;
-    vertical-align: top;
+	border: solid 1px #FFFFFF;
+	border-width: 1px 0px 0px 0px;
+	vertical-align: top;
 }
+
 .maintdenc {
-    padding: 0px;
+	padding: 0px;
 }
 
 .maintdside {
-    padding: 5px 0px;
-    max-width: 300px;
+	padding: 5px 0px;
+	max-width: 300px;
 }
+
 .maintdside {
-    vertical-align: top;
-    font-size: 8pt;
-    padding: 8px;
+	vertical-align: top;
+	font-size: 8pt;
+	padding: 8px;
 }
+
 #maintd {
-    padding: 10px;
-    text-align: left;
-    vertical-align: top;
-    width: 773px; 
-    font-size: 8pt;
+	padding: 8px;
+	text-align: left;
+	vertical-align: top;
+	width: 100%;
+	font-size: 8pt;
 }
 
 #sidebar TABLE {
-    width: 150px;
+	width: 150px;
 }
+
 .maintdside TABLE {
-    padding: 0px;
+	padding: 0px;
 }
+
 .maintdside TABLE {
-    margin-left: auto;
-    margin-right: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
+
 .menu {
-    font-size: 8pt;
+	font-size: 8pt;
 }
 
 #menubar {
-	border: 1px solid rgb(255, 255, 255); 
+	border: 1px solid rgb(255, 255, 255);
 }
 
 #updated {
-    border-style: solid;
-    border-width: 1px 0px 1px 0px;
-    border-color: #FFFFFF;
-    font-size: 9pt;
-    padding: 5px 0px 5px 0px;
-    text-align: center;
-    vertical-align: middle;
-    height: 1em;
+	border-style: solid;
+	border-width: 1px 0px 1px 0px;
+	border-color: #FFFFFF;
+	font-size: 9pt;
+	padding: 5px 0px 5px 0px;
+	text-align: center;
+	vertical-align: middle;
+	height: 1em;
 }
 
 #copyright {
-    text-align: left;
-    padding: 0.1em 1em 0.1em 1em;
-    font-size: 8pt;
-    vertical-align: middle;
-    height: 1em;
+	text-align: left;
+	padding: 0.1em 1em 0.1em 1em;
+	font-size: 8pt;
+	vertical-align: middle;
+	height: 1em;
 }
+
+/* Don't know why this was commented out lol
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+	padding: 0 6px;
+	float: left;
+	width: 133px;
+}
+
+@media only screen and (max-width: 700px) {
+	.responsive {
+	width: 49.99999%;
+	margin: 6px 0;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.responsive {
+	width: 100%;
+	}
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+} */
+
+/* W3Schools responsive image gallery */
+
+div.gallery {
+	display: block;
+	border: 1px solid #777;
+	width: 149px;
+	height: 149px;
+	
+}
+
+div.gallery:hover {
+	border: 1px solid #FFF;
+}
+
+div.gallery img {
+	width: 100%;
+	height: auto;
+}
+
+div.galleryhoverless {
+	display: block;
+	border: 1px solid #777;
+	width: 149px;
+	height: 149px;
+	
+}
+
+div.galleryhoverless img {
+	width: 100%;
+	height: auto;
+}
+
+div.desc {
+	padding: 15px;
+	text-align: center;
+}
+
+div.responsive {
+	display: block;
+}
+
+/*mender*/
+
+#gallerycont {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(149px, max-content));
+	justify-content: center;
+gap: 8px;}
