@@ -4,7 +4,7 @@ document.write('		<tbody>');
 document.write('			<tr>');
 document.write('<!--Header-->');
 document.write('				<td colspan="2" id="maintitlebg">');
-document.write('				<div id"maintitle"><a href="index2.html"><img src="images/logo.png" alt="Magus Madhouse Zone" style="width:30%;height:30%;"></a></div>');
+document.write('				<div id"maintitle"><a href="index.html"><img src="images/logo.png" alt="Magus Madhouse Zone" style="width:30%;height:30%;"></a></div>');
 document.write('				</td>');
 document.write('			</tr>');
 document.write('<!--Nav-->');
