@@ -9,7 +9,7 @@ document.write('				</td>');
 document.write('			</tr>');
 document.write('<!--Nav-->');
 document.write('		<tr>');
-document.write('			<td id="breadcrumbs"><a href="http://www.kirbysrainbowresort.net/index2.html">Remember Kirby\'s Rainbow Resort? It was a good site!</a></td>');
+document.write('			<td id="breadcrumbs">Autumn has finally come (Or... Spring, for those in the Southern Hemisphere).</td>');
 document.write('		</tr>');
 document.write('<!--Main-->	');
 document.write('	<tr>');
