@@ -6,7 +6,7 @@ document.write('		</td>');
 document.write('	</tr>');
 document.write('		<!--Last Updated (Remove?)-->');
 document.write('		<tr>');
-document.write('			<td colspan="2" id="updated">ACT 1 (Last updated 9/27/2023)</td>');
+document.write('			<td colspan="2" id="updated">ACT 1 (Last updated 10/11/2023)</td>');
 document.write('		</tr>');
 document.write('		<!--Footer-->');
 document.write('		<tr>');
