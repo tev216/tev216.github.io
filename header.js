@@ -9,7 +9,7 @@ document.write('				</td>');
 document.write('			</tr>');
 document.write('<!--Nav-->');
 document.write('		<tr>');
-document.write('			<td id="breadcrumbs">Monmona 2024?</td>');
+document.write('			<td id="breadcrumbs"><a href=images/7hnrspc766jz.webp>I&#39;m so pumped for autumn I&#39m gonna fill my ass with leaves</a></td>');
 document.write('		</tr>');
 document.write('<!--Main-->	');
 document.write('	<tr>');
